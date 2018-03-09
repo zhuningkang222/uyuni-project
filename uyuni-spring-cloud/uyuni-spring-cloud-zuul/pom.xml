@@ -10,11 +10,12 @@
 		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
-	<artifactId>uyuni-spring-cloud-feign</artifactId>
+	<artifactId>uyuni-spring-cloud-zuul</artifactId>
 	<packaging>jar</packaging>
 
-	<name>uyuni-spring-cloud-feign</name>
-	<description>Demo project for spring cloud feign</description>
+	<name>uyuni-spring-cloud-zuul</name>
+	<description>Demo project for spring cloud zuul</description>
+
 
 	<dependencies>
 		<dependency>
@@ -27,24 +28,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-feign</artifactId>
+			<artifactId>spring-cloud-starter-zuul</artifactId>
 		</dependency>
-		
-		<!-- spring project healthy actuator -->
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        
-        <dependency>  
-            <groupId>org.springframework.cloud</groupId>  
-            <artifactId>spring-cloud-starter-hystrix</artifactId>  
-        </dependency>  
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

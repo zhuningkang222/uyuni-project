@@ -14,5 +14,6 @@
   	<module>uyuni-spring-cloud-eureka-client</module>
   	<module>uyuni-spring-cloud-eureka-client-copy</module>
   	<module>uyuni-spring-cloud-ribbon</module>
+  	<module>uyuni-spring-cloud-zuul</module>
   </modules>
 </project>
