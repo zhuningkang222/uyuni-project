@@ -12,6 +12,7 @@
   <modules>
   	<module>uyuni-spring-cloud-eureka-server</module>
   	<module>uyuni-spring-cloud-eureka-client</module>
+  	<module>uyuni-spring-cloud-eureka-client-copy</module>
   	<module>uyuni-spring-cloud-ribbon</module>
   </modules>
 </project>
