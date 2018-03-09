@@ -35,7 +35,7 @@ public class UyuniSpringCloudRibbonApplication {
 	
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name){
-        return helloService.sayHi(name);
+        return helloService.sayHi(name)+" use ribbon";
     }
 	
 }

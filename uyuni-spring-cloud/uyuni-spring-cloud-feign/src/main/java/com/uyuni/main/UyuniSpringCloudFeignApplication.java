@@ -43,6 +43,6 @@ public class UyuniSpringCloudFeignApplication {
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(String name){
     	log.info("-------the request param:{}-----------",name);
-        return schedualService.sayHiFromClient(name);
+        return schedualService.sayHiFromClient(name)+" use feign";
     }
 }
