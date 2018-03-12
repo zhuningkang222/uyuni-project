@@ -18,5 +18,8 @@
   	<module>uyuni-spring-cloud-zuul</module>
   	<module>uyuni-spring-cloud-config-server</module>
   	<module>uyuni-spring-cloud-config-client</module>
+  	<module>uyuni-spring-cloud-server-zipkin</module>
+  	<module>uyuni-spring-cloud-zipkin-client</module>
+  	<module>uyuni-spring-cloud-zipkin-client-copy</module>
   </modules>
 </project>
