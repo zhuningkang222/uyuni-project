@@ -16,5 +16,7 @@
   	<module>uyuni-spring-cloud-ribbon</module>
   	<module>uyuni-spring-cloud-feign</module>
   	<module>uyuni-spring-cloud-zuul</module>
+  	<module>uyuni-spring-cloud-config-server</module>
+  	<module>uyuni-spring-cloud-config-client</module>
   </modules>
 </project>
