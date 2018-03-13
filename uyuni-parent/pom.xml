@@ -21,6 +21,7 @@
     <zkclient.version>0.2</zkclient.version>
     <zookeeper.version>3.4.9</zookeeper.version>
     <spring-cloud.version>Edgware.SR2</spring-cloud.version>
+    <springfox.swagger.version>2.7.0</springfox.swagger.version>
     <!-- <spring.boot.dubbo.version>1.0.0-SNAPSHOT</spring.boot.dubbo.version> -->
   </properties>
   
