@@ -12,7 +12,7 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 
 
 /**
- * 基于Zookeeper curator 的分布式栅栏
+ * 基于Zookeeper curator 的分布式栅栏,还需要多多学习
  * @author Administrator
  *
  */
