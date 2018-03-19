@@ -47,7 +47,7 @@ public class RedisTool {
         Object result = jedis.eval(script, Collections.singletonList(lockKey), Collections.singletonList(requestId));
         
         if (RELEASE_SUCCESS.equals(result)) {
-        	SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        	//SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         	//System.out.println("["+f.format(new Date())+"]"+Thread.currentThread().getName() + "释放锁成功!"+"lockKey:"+lockKey+"requestId:"+requestId);
             return true;
         }
