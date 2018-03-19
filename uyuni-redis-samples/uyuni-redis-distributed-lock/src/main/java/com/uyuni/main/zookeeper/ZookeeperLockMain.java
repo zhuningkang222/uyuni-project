@@ -51,7 +51,7 @@ public class ZookeeperLockMain {
                 }
                 List<Future<String>> futures = executor.invokeAll(callList);
             }catch (Exception e){
-
+            	e.printStackTrace();
             }
         };
 
