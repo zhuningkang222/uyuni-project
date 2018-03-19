@@ -13,5 +13,6 @@
   	<module>uyuni-parent</module>
   	<module>uyuni-dubbo-samples</module>
   	<module>uyuni-spring-cloud</module>
+  	<module>uyuni-redis-samples</module>
   </modules>
 </project>
