@@ -9,4 +9,8 @@
   <artifactId>uyuni-redis-samples</artifactId>
   <packaging>pom</packaging>
   <description>redis sample demo</description>
+  
+  <modules>
+  	<module>uyuni-redis-distributed-lock</module>
+  </modules>
 </project>
