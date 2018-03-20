@@ -13,8 +13,8 @@ public class DemoServiceProvider implements DemoService{
 
 	@Override
 	public String takeItEasy(String name) {
-		log.info("take it easy {}, just for fun!");
-		return "take it easy "+name+", just for fun!";
+		log.info("take it easy {}, just for fun!...",name);
+		return "take it easy "+name+", just for fun! from provider1";
 	}
 
 }
