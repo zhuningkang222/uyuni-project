@@ -23,6 +23,6 @@
     <!-- <dubbo:consumer version="${dubbo.provider.version}" /> -->
 
     <!-- 监控中心配置，用于配置连接监控中心相关信息，可选。-->
-    <dubbo:monitor protocol="registry"/>
+    <!-- <dubbo:monitor protocol="registry"/> -->
 
 </beans>
